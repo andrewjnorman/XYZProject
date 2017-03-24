@@ -14,6 +14,7 @@ TEST(MyTest, FirstTests)
 
 int main(int argc, char* argv[])
 {
+	printf("int x = %d", x);
 
 	testing::InitGoogleTest(&argc, argv);
 
