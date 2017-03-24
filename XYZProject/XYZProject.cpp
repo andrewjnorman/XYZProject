@@ -1,9 +1,9 @@
 // XYZProject.cpp : Defines the entry point for the console application.
 //
 
-//A dummy change
+//A dummy change - 1
 #include "stdafx.h"
-#include <gtest/gtest.h>
+#include "gtest/gtest.h"
 
 static int x = 1;
 
