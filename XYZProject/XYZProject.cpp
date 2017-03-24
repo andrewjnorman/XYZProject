@@ -1,11 +1,23 @@
 // XYZProject.cpp : Defines the entry point for the console application.
 //
 
+
 #include "stdafx.h"
+#include <gtest/gtest.h>
 
+static int x = 1;
 
-int main()
+TEST(MyTest, FirstTests)
 {
-    return 0;
+	EXPECT_EQ(2, x);
 }
+
+int main(int argc, char* argv[])
+{
+
+	testing::InitGoogleTest(&argc, argv);
+
+	return RUN_ALL_TESTS();
+}
+
 
