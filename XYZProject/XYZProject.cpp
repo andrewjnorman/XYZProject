@@ -1,7 +1,7 @@
 // XYZProject.cpp : Defines the entry point for the console application.
 //
 
-//A dummy change - 2
+//A dummy change - 3
 #include "stdafx.h"
 #include "gtest/gtest.h"
 
