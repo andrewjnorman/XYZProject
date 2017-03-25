@@ -3,7 +3,7 @@
 
 //A dummy change - 4
 #include "stdafx.h"
-#include "gtest/gtest.h"
+//#include "gtest/gtest.h"
 #include "Class1.h"
 
 
@@ -18,9 +18,9 @@ int main(int argc, char* argv[])
 
 	printf("Class1.fn_1 = %d\n", x.fn_1());
 
-	testing::InitGoogleTest(&argc, argv);
+	//testing::InitGoogleTest(&argc, argv);
 
-	return RUN_ALL_TESTS();
+	//return RUN_ALL_TESTS();
 }
 
 
