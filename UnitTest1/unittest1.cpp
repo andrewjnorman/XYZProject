@@ -14,7 +14,7 @@ namespace UnitTest1
 		{
 			Class1 x;
 			// TODO: Your test code here
-			Assert::AreEqual(2, x.fn_1());
+			Assert::AreEqual(1, x.fn_1());
 
 		}
 
