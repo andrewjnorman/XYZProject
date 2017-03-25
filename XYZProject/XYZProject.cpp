@@ -4,17 +4,19 @@
 //A dummy change - 4
 #include "stdafx.h"
 #include "gtest/gtest.h"
+#include "Class1.h"
 
-static int x = 1;
 
-TEST(MyTest, FirstTests)
-{
-	EXPECT_EQ(2, x);
-}
+//TEST(MyTest, FirstTests)
+//{
+//	EXPECT_EQ(2, x);
+//}
 
 int main(int argc, char* argv[])
 {
-	printf("int x = %d", x);
+	Class1 x;
+
+	printf("Class1.fn_1 = %d\n", x.fn_1());
 
 	testing::InitGoogleTest(&argc, argv);
 
